@@ -64,6 +64,8 @@
       "iso_url": "{{ user `iso_url` }}",
       "shutdown_command": "{{ user `shutdown_command`}}",
       "type": "virtualbox-iso",
+      "ssh_host_port_min": "5985",
+      "ssh_host_port_max": "5985",
       "vboxmanage": [
         [
           "modifyvm",
